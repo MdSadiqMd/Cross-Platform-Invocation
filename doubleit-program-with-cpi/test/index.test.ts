@@ -33,8 +33,8 @@ describe("Counter Program Tests", () => {
     let dataAccount: Keypair;
     let userAccount: Keypair;
 
-    const cpiProgramPath = path.join(import.meta.dir, "program-cpi.so");
-    const doubleProgramPath = path.join(import.meta.dir, "program-double.so");
+    const cpiProgramPath = path.join(import.meta.dir, "cpi_double_it.so");
+    const doubleProgramPath = path.join(import.meta.dir, "cpi_double_it.so");
 
     beforeEach(() => {
         svm = new LiteSVM();
